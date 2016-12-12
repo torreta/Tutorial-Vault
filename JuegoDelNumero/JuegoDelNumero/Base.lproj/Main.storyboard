@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JuegoDelNumero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TbY-2t-rzb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtY-oi-qeS">
+                                <rect key="frame" x="249" y="312" width="102" height="30"/>
+                                <state key="normal" title="Ver el Numero!"/>
+                                <connections>
+                                    <action selector="VerNumero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eCr-7C-lps"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe un numero entre 0 - 6" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WKI-lT-sRJ">
+                                <rect key="frame" x="193" y="239" width="215" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Adivina el Numero en que estoy Pensando " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOa-0b-ajj">
+                                <rect key="frame" x="100" y="122" width="400" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.32684378949999998" blue="0.32189632620000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qtY-oi-qeS" firstAttribute="top" secondItem="WKI-lT-sRJ" secondAttribute="bottom" constant="43" id="3gV-cV-3B5"/>
+                            <constraint firstItem="WKI-lT-sRJ" firstAttribute="centerX" secondItem="TOa-0b-ajj" secondAttribute="centerX" id="DMG-ay-qnZ"/>
+                            <constraint firstItem="WKI-lT-sRJ" firstAttribute="top" secondItem="TOa-0b-ajj" secondAttribute="bottom" constant="33" id="L3J-Sj-CNf"/>
+                            <constraint firstItem="qtY-oi-qeS" firstAttribute="centerX" secondItem="WKI-lT-sRJ" secondAttribute="centerX" id="MYt-fQ-Nat"/>
+                            <constraint firstItem="TOa-0b-ajj" firstAttribute="width" secondItem="TbY-2t-rzb" secondAttribute="width" id="bml-Fu-Qc5"/>
+                            <constraint firstItem="TOa-0b-ajj" firstAttribute="centerX" secondItem="TbY-2t-rzb" secondAttribute="centerX" id="jjI-Xv-4qg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="NumeroCampo" destination="WKI-lT-sRJ" id="EzT-sL-w6o"/>
+                        <outlet property="titulo" destination="TOa-0b-ajj" id="3yt-nv-wha"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="438"/>
+        </scene>
+    </scenes>
+</document>

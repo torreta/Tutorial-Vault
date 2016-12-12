@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomTableviewTutorial/ourTableViewCell.swift"
+            timestampString = "469660001.812522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ourTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomTableviewTutorial.ourTableViewCell.ourCellLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "CustomTableviewTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini1/Desktop/CustomTableviewTutorial/CustomTableviewTutorial/ourTableViewCell.swift"
+                  timestampString = "469660001.81953"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomTableviewTutorial.ourTableViewCell.ourCellLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "CustomTableviewTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini1/Desktop/CustomTableviewTutorial/CustomTableviewTutorial/ourTableViewCell.swift"
+                  timestampString = "469660001.821357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomTableviewTutorial.ourTableViewCell.ourCellLabel.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "CustomTableviewTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini1/Desktop/CustomTableviewTutorial/CustomTableviewTutorial/ourTableViewCell.swift"
+                  timestampString = "469660001.821521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomTableviewTutorial.ourTableViewCell.init (CustomTableviewTutorial.ourTableViewCell.Type)(style : C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; CustomTableviewTutorial.ourTableViewCell"
+                  moduleName = "CustomTableviewTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini1/Desktop/CustomTableviewTutorial/CustomTableviewTutorial/ourTableViewCell.swift"
+                  timestampString = "469660001.82166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomTableviewTutorial.ourTableViewCell.init (CustomTableviewTutorial.ourTableViewCell.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;CustomTableviewTutorial.ourTableViewCell&gt;"
+                  moduleName = "CustomTableviewTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini1/Desktop/CustomTableviewTutorial/CustomTableviewTutorial/ourTableViewCell.swift"
+                  timestampString = "469660001.821776"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

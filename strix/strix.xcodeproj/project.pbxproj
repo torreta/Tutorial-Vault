@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4213125D1BF13B4600A31F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213125C1BF13B4600A31F49 /* AppDelegate.swift */; };
+		4213125F1BF13B4600A31F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213125E1BF13B4600A31F49 /* ViewController.swift */; };
+		421312621BF13B4600A31F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421312601BF13B4600A31F49 /* Main.storyboard */; };
+		421312641BF13B4600A31F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421312631BF13B4600A31F49 /* Assets.xcassets */; };
+		421312671BF13B4600A31F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421312651BF13B4600A31F49 /* LaunchScreen.storyboard */; };
+		421312721BF13B4600A31F49 /* strixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421312711BF13B4600A31F49 /* strixTests.swift */; };
+		4213127D1BF13B4600A31F49 /* strixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4213127C1BF13B4600A31F49 /* strixUITests.swift */; };
+		42F578761BF508C80085DA0A /* img in Resources */ = {isa = PBXBuildFile; fileRef = 42F578751BF508C80085DA0A /* img */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4213126E1BF13B4600A31F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421312511BF13B4600A31F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421312581BF13B4600A31F49;
+			remoteInfo = strix;
+		};
+		421312791BF13B4600A31F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421312511BF13B4600A31F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421312581BF13B4600A31F49;
+			remoteInfo = strix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421312591BF13B4600A31F49 /* strix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4213125C1BF13B4600A31F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4213125E1BF13B4600A31F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		421312611BF13B4600A31F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		421312631BF13B4600A31F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421312661BF13B4600A31F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		421312681BF13B4600A31F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4213126D1BF13B4600A31F49 /* strixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = strixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421312711BF13B4600A31F49 /* strixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strixTests.swift; sourceTree = "<group>"; };
+		421312731BF13B4600A31F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421312781BF13B4600A31F49 /* strixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = strixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4213127C1BF13B4600A31F49 /* strixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strixUITests.swift; sourceTree = "<group>"; };
+		4213127E1BF13B4600A31F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F578751BF508C80085DA0A /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421312561BF13B4600A31F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4213126A1BF13B4600A31F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421312751BF13B4600A31F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421312501BF13B4600A31F49 = {
+			isa = PBXGroup;
+			children = (
+				4213125B1BF13B4600A31F49 /* strix */,
+				421312701BF13B4600A31F49 /* strixTests */,
+				4213127B1BF13B4600A31F49 /* strixUITests */,
+				4213125A1BF13B4600A31F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4213125A1BF13B4600A31F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421312591BF13B4600A31F49 /* strix.app */,
+				4213126D1BF13B4600A31F49 /* strixTests.xctest */,
+				421312781BF13B4600A31F49 /* strixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4213125B1BF13B4600A31F49 /* strix */ = {
+			isa = PBXGroup;
+			children = (
+				4213125C1BF13B4600A31F49 /* AppDelegate.swift */,
+				4213125E1BF13B4600A31F49 /* ViewController.swift */,
+				421312601BF13B4600A31F49 /* Main.storyboard */,
+				421312631BF13B4600A31F49 /* Assets.xcassets */,
+				42F578751BF508C80085DA0A /* img */,
+				421312651BF13B4600A31F49 /* LaunchScreen.storyboard */,
+				421312681BF13B4600A31F49 /* Info.plist */,
+			);
+			path = strix;
+			sourceTree = "<group>";
+		};
+		421312701BF13B4600A31F49 /* strixTests */ = {
+			isa = PBXGroup;
+			children = (
+				421312711BF13B4600A31F49 /* strixTests.swift */,
+				421312731BF13B4600A31F49 /* Info.plist */,
+			);
+			path = strixTests;
+			sourceTree = "<group>";
+		};
+		4213127B1BF13B4600A31F49 /* strixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4213127C1BF13B4600A31F49 /* strixUITests.swift */,
+				4213127E1BF13B4600A31F49 /* Info.plist */,
+			);
+			path = strixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421312581BF13B4600A31F49 /* strix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421312811BF13B4600A31F49 /* Build configuration list for PBXNativeTarget "strix" */;
+			buildPhases = (
+				421312551BF13B4600A31F49 /* Sources */,
+				421312561BF13B4600A31F49 /* Frameworks */,
+				421312571BF13B4600A31F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = strix;
+			productName = strix;
+			productReference = 421312591BF13B4600A31F49 /* strix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4213126C1BF13B4600A31F49 /* strixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421312841BF13B4600A31F49 /* Build configuration list for PBXNativeTarget "strixTests" */;
+			buildPhases = (
+				421312691BF13B4600A31F49 /* Sources */,
+				4213126A1BF13B4600A31F49 /* Frameworks */,
+				4213126B1BF13B4600A31F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4213126F1BF13B4600A31F49 /* PBXTargetDependency */,
+			);
+			name = strixTests;
+			productName = strixTests;
+			productReference = 4213126D1BF13B4600A31F49 /* strixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		421312771BF13B4600A31F49 /* strixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421312871BF13B4600A31F49 /* Build configuration list for PBXNativeTarget "strixUITests" */;
+			buildPhases = (
+				421312741BF13B4600A31F49 /* Sources */,
+				421312751BF13B4600A31F49 /* Frameworks */,
+				421312761BF13B4600A31F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4213127A1BF13B4600A31F49 /* PBXTargetDependency */,
+			);
+			name = strixUITests;
+			productName = strixUITests;
+			productReference = 421312781BF13B4600A31F49 /* strixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421312511BF13B4600A31F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = strix;
+				TargetAttributes = {
+					421312581BF13B4600A31F49 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4213126C1BF13B4600A31F49 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 421312581BF13B4600A31F49;
+					};
+					421312771BF13B4600A31F49 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 421312581BF13B4600A31F49;
+					};
+				};
+			};
+			buildConfigurationList = 421312541BF13B4600A31F49 /* Build configuration list for PBXProject "strix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421312501BF13B4600A31F49;
+			productRefGroup = 4213125A1BF13B4600A31F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421312581BF13B4600A31F49 /* strix */,
+				4213126C1BF13B4600A31F49 /* strixTests */,
+				421312771BF13B4600A31F49 /* strixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421312571BF13B4600A31F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F578761BF508C80085DA0A /* img in Resources */,
+				421312671BF13B4600A31F49 /* LaunchScreen.storyboard in Resources */,
+				421312641BF13B4600A31F49 /* Assets.xcassets in Resources */,
+				421312621BF13B4600A31F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4213126B1BF13B4600A31F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421312761BF13B4600A31F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421312551BF13B4600A31F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4213125F1BF13B4600A31F49 /* ViewController.swift in Sources */,
+				4213125D1BF13B4600A31F49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421312691BF13B4600A31F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421312721BF13B4600A31F49 /* strixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421312741BF13B4600A31F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4213127D1BF13B4600A31F49 /* strixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4213126F1BF13B4600A31F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421312581BF13B4600A31F49 /* strix */;
+			targetProxy = 4213126E1BF13B4600A31F49 /* PBXContainerItemProxy */;
+		};
+		4213127A1BF13B4600A31F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421312581BF13B4600A31F49 /* strix */;
+			targetProxy = 421312791BF13B4600A31F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		421312601BF13B4600A31F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421312611BF13B4600A31F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		421312651BF13B4600A31F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421312661BF13B4600A31F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4213127F1BF13B4600A31F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421312801BF13B4600A31F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421312821BF13B4600A31F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = strix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strix.strix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421312831BF13B4600A31F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = strix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strix.strix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421312851BF13B4600A31F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = strixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strix.strixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strix.app/strix";
+			};
+			name = Debug;
+		};
+		421312861BF13B4600A31F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = strixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strix.strixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strix.app/strix";
+			};
+			name = Release;
+		};
+		421312881BF13B4600A31F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = strixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strix.strixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = strix;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		421312891BF13B4600A31F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = strixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strix.strixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = strix;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421312541BF13B4600A31F49 /* Build configuration list for PBXProject "strix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4213127F1BF13B4600A31F49 /* Debug */,
+				421312801BF13B4600A31F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421312811BF13B4600A31F49 /* Build configuration list for PBXNativeTarget "strix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421312821BF13B4600A31F49 /* Debug */,
+				421312831BF13B4600A31F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421312841BF13B4600A31F49 /* Build configuration list for PBXNativeTarget "strixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421312851BF13B4600A31F49 /* Debug */,
+				421312861BF13B4600A31F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421312871BF13B4600A31F49 /* Build configuration list for PBXNativeTarget "strixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421312881BF13B4600A31F49 /* Debug */,
+				421312891BF13B4600A31F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421312511BF13B4600A31F49 /* Project object */;
+}
